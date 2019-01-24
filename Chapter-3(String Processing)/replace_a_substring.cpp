@@ -28,7 +28,7 @@ void Update(string &s, string r, string p)
         if(f == r.length())
         {
             temp.assign(s,0,point);
-            temp2.assign(s,point+l2,l1-l2);
+            temp2.assign(s,point+l2,l1-l2); ///point
         }
     }
     s = temp + p +temp2;
